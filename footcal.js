@@ -1,4 +1,4 @@
-//LIVE VERSION 4,0,6 incl fcm
+//LIVE VERSION 4,1 apps2use production version
 var express    = require('express');
 var mysql      = require('mysql');
 var bodyParser = require('body-parser');
@@ -50,8 +50,6 @@ var app = express();
   console.log(app.get('port'));
   app.use(bodyParser.urlencoded({ extended: false}));
   app.use(bodyParser.json());
-
-
 
 
 /*Email setup*/
